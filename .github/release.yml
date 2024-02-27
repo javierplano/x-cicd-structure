@@ -1,0 +1,18 @@
+# .github/release.yml
+
+changelog:
+  exclude:
+    labels:
+      - kind/internal
+      - kind/configuration
+  categories:
+    - title: Exciting New Features 🎉
+      labels:
+        - kind/feature
+    - title: Bug Fixes 🛠
+      labels:
+        - kind/bug
+    - title: Breaking Changes 🛠
+      labels:
+        - breaking
+        - kind/removal
